@@ -1,0 +1,149 @@
+/*Text Decoration*/
+
+.set{
+	text-decoration:none;
+	font-family:monospace;
+	font-size:60px;
+	color:#fff;
+	text-shadow:-25px 25px 10px #848484;
+}
+
+body
+{	 
+  height:100%;
+  width:100%
+  position:relative;
+  background-color:#0066CC;
+}
+
+section
+{
+  width:100%;
+  height:100%;
+}
+
+marquee{
+	height:850px;
+}
+
+.set{
+	width:100%;
+	height:100%;
+	margin:0;
+	line-height:70px;
+	text-align:center;
+	animation-duration:5s;
+	
+}
+
+.set div
+{
+  position:relative;
+  display:block;
+}
+
+/*animation per letter*/
+
+.set div:nth-child(1){
+
+  animation:tornado 8s infinite;
+  animation-delay:-40s;
+  animation-iteration-count:infinite;
+  animation-duration:7s;
+}
+  
+.set div:nth-child(2){
+
+  animation:tornado 8s infinite;
+  animation-delay:-35s;
+  animation-iteration-count:infinite;
+  animation-duration:7s;
+} 
+
+.set div:nth-child(3){
+
+  animation:tornado 8s 5;
+  animation-delay:-30s;
+  animation-iteration-count:infinite;
+  animation-duration:7s;
+}  
+
+.set div:nth-child(4){
+
+  animation:tornado 8s infinite;
+  animation-delay:-25s;
+  animation-iteration-count:infinite;
+  animation-duration:7s;
+}  
+
+.set div:nth-child(5){
+
+  animation:tornado 8s infinite;
+  animation-delay:-20s;
+  animation-iteration-count:infinite;
+  animation-duration:7s;
+}  
+
+.set div:nth-child(6){
+
+  animation:tornado 8s infinite;
+  animation-delay:-15s;
+  animation-iteration-count:infinite;
+  animation-duration:7s;
+}  
+
+.set div:nth-child(7){
+
+  animation:tornado 8s infinite;
+  animation-delay:-10s;
+  animation-iteration-count:infinite;
+  animation-duration:7s;
+} 
+
+
+@keyframes tornado{
+
+  0%,
+  10%,
+  20%,
+  30%,
+  40%,
+  50%,
+  60%,
+  70%,
+  80%,
+  90%,
+  100%
+  
+  {
+	  left:200px;
+	  transform:rotateY(0deg);
+  }
+
+/*For The Opposite side*/
+  5%,
+  15%,
+  25%,
+  35%,
+  45%,
+  55%,
+  65%,
+  75%,
+  85%,
+  95% {
+	  
+	  left:-200px;
+	  transform:rotateY(360deg) scale(2);
+	  
+  }
+  
+  
+}
+  
+    
+    
+
+
+	
+  
+  
